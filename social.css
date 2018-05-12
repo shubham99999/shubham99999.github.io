@@ -1,0 +1,58 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+		#wrapper{
+
+      width: 300px;
+      height: 50px;
+      margin: 50px;
+      text-align: center;
+      background-color: transparent;
+     }
+     .box{
+
+      width: 50px;
+      height: 50px;
+      
+      border-radius: 50px;
+      font-family: entypo ;
+      color: #212121;
+      
+      font-size: 25px;
+      display: block;
+      cursor: pointer;
+      margin:1%;
+     }
+     .box:hover{
+     	color: #fff;
+     	transform: scale(1.10);
+     	transition: 0.5s;
+     }
+     #facebook{
+     	color:rgb(59,89,152);
+
+     }
+     #facebook:hover{
+     	background-color: rgb(59,89,152);
+     	color: #fff;
+     	text-align: center;
+     	box-shadow: 0 0 0 22px #3A5795;
+     }
+     #linkedin{
+     	color: #4875B4;
+     }
+     #linkedin:hover{
+     	color: #fff;
+     	background-color:  #4875B4;
+     	text-align: center;
+     	box-shadow: 0 0 0 22px #4875B4;
+     }
+     ul{
+     	list-style-type: none;
+     	margin:0;
+     	padding: 0;
+     }
+     ul li{
+      display: inline-block;
+      margin-right: 50px;
+
+
+     }
